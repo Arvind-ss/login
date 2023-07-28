@@ -1,0 +1,64 @@
+.container{
+    height: 75vh;
+    width: 80%;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     padding: 10px;
+    
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 40px;
+}
+.image img{
+    width:fit-content;
+    height: 70px;   
+    align-items: center;
+}
+.formControl{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    color: red;}
+
+.formArea *{
+    margin-bottom: 20px;    
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+.loginRoute{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    vertical-align: middle;    
+    
+}
+.loginRoute >h6,a{
+    font-weight: lighter;
+
+}
+.termsConditon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.termsConditon>p{ 
+    font-weight:lighter;
+    
+}
